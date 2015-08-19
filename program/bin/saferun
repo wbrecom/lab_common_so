@@ -1,0 +1,18 @@
+#!/bin/bash
+
+CMDLINE=$@
+
+echo `date +"%Y-%m-%d %H:%M:%S"`" begin to start:$CMDLINE"
+
+$CMDLINE &
+PID="$!"
+
+echo `date +"%Y-%m-%d %H:%M:%S"`" has started pid:$PID, $CMDLINE"
+while true
+do
+    wait $PID
+    echo `date +"%Y-%m-%d %H:%M:%S"`" terminated, to start again"
+    $CMDLINE &
+    PID="$!"
+    echo `date +"%Y-%m-%d %H:%M:%S"`" restarted pid:$PID, $CMDLINE"
+done

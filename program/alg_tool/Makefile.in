@@ -1,0 +1,7 @@
+ifeq ($(ARCH),i686)
+    CC=gcc -m32
+    CFLAGS=-Wall -shared -fPIC -g -O3 
+else
+    CC=gcc
+    CFLAGS=-Wall -shared -fPIC -g -O3 
+endif

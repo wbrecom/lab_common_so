@@ -1,0 +1,17 @@
+[WORK_INFO]
+WORK_SPLIT_CHAR=44
+WORK_NAMES=SIMPLEFRAME_WORK
+CONF_FOLDER=../conf/
+LIB_FOLDER=../lib/
+LOG_PATH=../log/lab_common.log
+
+[EXAMPLE_WORK]
+API=example
+SO_NAME=ExampleWorkInterface
+ALG_INI=
+
+[SIMPLEFRAME_WORK]
+API=simpleframe
+SO_NAME=SimpleFrameWorkInterface
+ALG_INI=alg/example_alg.ini
+

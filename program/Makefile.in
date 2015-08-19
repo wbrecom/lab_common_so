@@ -1,0 +1,9 @@
+ifeq ($(ARCH),i686)
+    CC=gcc -Wl,--export-dynamic -m32
+    CFLAGS=-Wall -fPIC -g -O3 
+    CSFLAGS=-Wall -shared -fPIC -g -O3
+else
+    CC=gcc -Wl,--export-dynamic
+    CFLAGS=-Wall -fPIC -g -O3 
+    CSFLAGS=-Wall -shared -fPIC -g -O3
+endif
