@@ -1,10 +1,4 @@
 /**
- * @file
- * @author  Li Jiong <lijiong@staff.sina.com.cn>
- * @version 1.0
- *
- * @section DESCRIPTION
- *
  * woo framework 
  */
 #ifndef __woo_tcp_server__h__

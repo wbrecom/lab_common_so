@@ -55,13 +55,6 @@ class WorkInterface{
 			return run_algorithm(req_id, access_str, vec_pair_map_alg_, vec_cand);
 		}
 
-		/*
-		 * 添加重载函数，用于支撑新的业务
-		 * 输入：alg_name：配置文件中的SO_NAMES字段对应的每一个section
-		 * 输出：output_vec
-		 * 修改时间：2015/01/04
-		 * 修改人：程天翔
-		 */
 		int algorithm_core(int64_t req_id, const AccessInfo* access_info, const string alg_name, 
 				const VEC_CAND& input_vec, VEC_CAND& output_vec){
 			return run_algorithm(req_id, access_info, alg_name, vec_pair_map_alg_, input_vec, output_vec);
@@ -79,13 +72,6 @@ class WorkInterface{
 			return initialize_algorithm(vec_pair_map_alg_, p_alg_config,
 					p_db_company_, interface_id_);
 		}
-
-		/*int return_fail(int fail_code, const char* fail_string, char* &p_out_string, int& n_out_len){
-			n_out_len = sprintf(p_out_string, "{\"return_code\":\"%d\", \"error_msg\":\"%s\"}", 
-					fail_code, fail_string);
-
-			return 1;
-		}*/
 
 	protected:
 

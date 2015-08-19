@@ -1,9 +1,6 @@
 /**
  * @file
  * @brief initialization file read and write API implementation
- * @author Deng Yangjun
- * @date 2007-1-9
- * @version 0.2
  */
 #include <stdio.h>
 #include <stdlib.h>

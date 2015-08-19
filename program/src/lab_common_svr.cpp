@@ -216,7 +216,7 @@ int query_req_handle(void *handle_data, char *input, uint32_t input_len, char *o
 
 	memset(resp_head, 0, sizeof(woo::binary_head_t));
 	resp_head->log_id = req_head->log_id;
-	uint64_t log_id = resp_head->log_id;			// 20140903新增
+	uint64_t log_id = resp_head->log_id;
 	req_body[req_head->body_len] = '\0';	
 	
 	thread_data_t *thr = (thread_data_t *)handle_data;

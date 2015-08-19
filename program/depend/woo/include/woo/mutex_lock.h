@@ -1,10 +1,4 @@
 /**
- * @file
- * @author  Wang Chuanpeng <chuanpeng@staff.sina.com.cn>
- * @version 1.0
- *
- * @section DESCRIPTION
- *
  * woo framework 
  */
 #ifndef __mutex_lock_H__

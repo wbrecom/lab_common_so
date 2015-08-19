@@ -5,9 +5,6 @@
  *	-after '=' in key value pair, can not support empty char. this would not like WIN32 API
  *	-support comment using ';' prefix
  *	-can not support multi line
- * @author Deng Yangjun
- * @date 2007-1-9
- * @version 0.2
  */
  
 #ifndef INI_FILE_H_

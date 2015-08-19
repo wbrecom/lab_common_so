@@ -45,6 +45,8 @@ gcc 4.1.2(更高版本需要测试)
 
 6、cd bin; sh run.sh  启动程序
 
+7、sh test.sh可以看到程序输出"welcome!"
+
 <br>
 ##联系我们
 `weibo_recom@staff.sina.com.cn`
