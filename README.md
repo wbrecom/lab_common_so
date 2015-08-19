@@ -48,6 +48,17 @@ gcc 4.1.2(更高版本需要测试)
 7、sh test.sh可以看到程序输出"welcome!"
 
 <br>
+##快速入门
+快速使用本框架，请参考work_tool/src目录下的两个简单示例。
+
+* example_work_interface 用于演示程序的输入和输出
+
+* simple_frame_work_interface 包含了多种类型的数据获取
+
+更详细的使用方法请参考《lab_common_so说明及使用文档》
+
+
+<br>
 ##联系我们
 `weibo_recom@staff.sina.com.cn`
 
